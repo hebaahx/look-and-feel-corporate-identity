@@ -15,7 +15,7 @@ SnappThis is een project waarin we werken aan de look & feel en styleguide van d
 
 Hier is een link naar de figma waar de desgin in staat: https://www.figma.com/design/lphsL70W8JfHtddUdaon3k/2025snappthisDesign?m=auto&t=PYT30zV6UCJj3Wk0-6
 
-Hier is een live link van de page in mijn github: 
+Hier is een live link van de page in mijn github: https://hebaahx.github.io/look-and-feel-corporate-identity/
 
 ## Kenmerken
 In dit project werken we met een gezamenlijke styleguide, die ik samen met mijn projectgroep heb ontwikkeld. Deze styleguide gebruiken we in onze eigen repositories, zodat alle onderdelen dezelfde look & feel hebben.
