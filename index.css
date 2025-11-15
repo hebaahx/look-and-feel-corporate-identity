@@ -28,5 +28,33 @@ body {
     cursor: pointer;
     position: absolute;
     right: 1rem;
+}
 
+/* Group list */
+.groups {
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+}
+
+.group {
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-photo);
+    display: flex;
+    flex-direction: var(--border-radius-photo);
+    display: flex;
+    flex-direction: column;
+}
+
+.group-name {
+    font-size: var(--second-line);
+    margin: 0;
+}
+
+.group-sub {
+    font-size: var(--description);
+    color: var(--secondary-text-color);
+    margin: 0;
 }
