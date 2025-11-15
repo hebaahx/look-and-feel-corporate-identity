@@ -1,0 +1,32 @@
+/* Body */
+body {
+    margin: 0;
+    background-color: var(--grey-background);
+    color: var(--primary-color);
+}
+
+/* Header */
+.topbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.header-title {
+    margin: 0;
+    font-size:var(--first-line) ;
+}
+
+.add-button {
+    font-size: 2rem;
+    padding: 0.7rem;
+    border-radius: var(--border-radius-button);
+    color: var(--primary-color);
+    cursor: pointer;
+    position: absolute;
+    right: 1rem;
+
+}
