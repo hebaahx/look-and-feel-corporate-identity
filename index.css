@@ -69,16 +69,12 @@ main {
 /* Nav-bar */
 .nav-bar {
     position: fixed;
-    display: flex;
     bottom: 0;
-    left: 0;
-    max-width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
     background-color: var(--primary-color);
-    z-index: 1000;
 }
 
 .nav-item{
