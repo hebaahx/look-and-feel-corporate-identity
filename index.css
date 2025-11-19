@@ -13,58 +13,78 @@ body {
     padding: 1.5rem;
     background-color: var(--primary-color);
     color: var(--white);
+
+
+    .header-title {
+     margin: 0;
+     font-size:var(--first-line) ;
+    }
+}
+    
+
+    .add-button {
+     font-size: 2rem;
+     padding: 0.7rem;
+     border-radius: var(--border-radius-button);
+     color: var(--primary-color);
+     cursor: pointer;
+     position: absolute;
+     right: 1rem;
+     outline-color: black;
+     outline-style: dashed;
+    
 }
 
-.header-title {
-    margin: 0;
-    font-size:var(--first-line) ;
-}
-
-.add-button {
-    font-size: 2rem;
-    padding: 0.7rem;
-    border-radius: var(--border-radius-button);
-    color: var(--primary-color);
-    cursor: pointer;
-    position: absolute;
-    right: 1rem;
-    outline-color: black;
-    outline-style: dashed;
-  
-}
 
 main {
     padding-bottom: 100px;
+
+    @media (min-width: 700px) {
+     padding-bottom: 150px;
+     padding-inline: 5em;
+    }
 }
 
 /* Group list */
 .groups {
-    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 1rem;
-    margin: 0;
+
+    @media (min-width: 700px) {
+     padding: 2rem 5em;
+     grid-template-columns: 1fr;
+    }
 }
 
 .group {
     background-color: var(--white);
     margin-bottom: 1rem;
-    padding: 0.5rem;
+    padding: 1rem;
     border-radius: var(--border-radius-photo);
     display: flex;
     flex-direction: var(--border-radius-photo);
-    display: flex;
+    display: flex-start;
     flex-direction: column;
-}
 
-.group-name {
-    font-size: var(--second-line);
-    margin: 0;
-}
+     @media (min-width: 700px) {
+      padding: 2rem;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+     }
 
-.group-sub {
-    font-size: var(--description);
-    color: var(--secondary-text-color);
-    margin: 0;
-}
+        .group-name {
+         font-size: var(--second-line);
+         margin: 0;
+        }
+
+        .group-sub {
+         font-size: var(--description);
+         color: var(--secondary-text-color);
+         margin: 0;
+        }
+   }
 
 /* Nav-bar */
 .nav-bar {
@@ -75,15 +95,17 @@ main {
     align-items: center;
     width: 100%;
     background-color: var(--primary-color);
-}
 
-.nav-item{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: none;
-    border: none;
-    cursor: pointer;
-    bottom: 0;
+    .nav-item{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: none;
+     border: none;
+     cursor: pointer;
+     bottom: 0;
+    }
+    
+
 }
 
