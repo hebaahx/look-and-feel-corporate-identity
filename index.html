@@ -18,11 +18,31 @@
     
   <!-- group list -->
 <main>
+
+  <div class="popup-menu" id="popupmenu">
+    <ul>
+      <li class="popup-item">
+        <input type="checkbox" id="memberscanadd">
+        <label for="memberscanadd">Members can add snapp from roll</label>
+      </li>
+
+      <li class="popup-item leave">
+        <img src="assets/leave.svg" alt="leave group">
+        <span>Leave this group</span>
+      </li>
+
+      <li class="popup-item delete">
+        <img src="assets/delete.svg" alt="delete group">
+        <span>Delete this group</span>
+      </li>
+    </ul>
+  </div>
+
     <ul class="groups">
 
       <li class="group">
         <p class="group-name">Westerpark</p>
-        <p class="group-sub">Add your snapp!</p>
+        <p class="group-sub clickable" onclick="openMenu()">Add your snapp!</p>
       </li>
 
       <li class="group">
@@ -56,6 +76,6 @@
         <img src="assets/user.svg" alt="profile">
     </button>
    </nav>
-
+ <script src="index.js"></script>
 </body>
 </html>
