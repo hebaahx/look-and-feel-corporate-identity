@@ -19,8 +19,6 @@ body {
      margin: 0;
      font-size:var(--first-line) ;
     }
-}
-    
 
     .add-button {
      font-size: 2rem;
@@ -33,8 +31,8 @@ body {
      outline-color: black;
      outline-style: dashed;
     
+    }
 }
-
 
 main {
     padding-bottom: 100px;
@@ -55,9 +53,8 @@ main {
      padding: 2rem 5em;
      grid-template-columns: 1fr;
     }
-}
 
-.group {
+    .group {
     background-color: var(--white);
     margin-bottom: 1rem;
     padding: 1rem;
@@ -78,13 +75,16 @@ main {
          font-size: var(--second-line);
          margin: 0;
         }
+   }
 
-        .group-sub {
+}
+
+ .group-sub {
          font-size: var(--description);
          color: var(--secondary-text-color);
          margin: 0;
         }
-   }
+
 
 /* Nav-bar */
 .nav-bar {
@@ -117,29 +117,38 @@ main {
     transition: 0.4s ease;
     padding: 1rem;
     border-radius: 8px;
-}
 
-.popup-menu.open {
+     @media (min-width: 700px) {
+        top: 100px;
+        width: 300px;
+        padding: 2rem;
+     }
+
+    &.open {
     right: 0; /* schuift in beeld */
-}
+    }   
 
-.popup-menu ul {
+    ul {
     margin: 0;
     padding: 0;
+    }
+
+    
+    .popup-item {
+     display: flex;
+     align-items: center;
+     padding: 0.6rem;
+     font-size: 1rem;
+     color: var(--primary-color);
+    }
+
+     img {
+     width: 20px;
+     margin-right: 10px;
+  }
+
 }
 
-.popup-item {
-    display: flex;
-    align-items: center;
-    padding: 0.6rem;
-    font-size: 1rem;
-    color: var(--primary-color);
-}
-
-.popup-item img {
-    width: 20px;
-    margin-right: 10px;
-}
 
 .popup-item.delete span {
     color: red;
