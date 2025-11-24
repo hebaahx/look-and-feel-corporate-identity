@@ -88,6 +88,18 @@ main {
     padding: 0;
     background: transparent;
     border: none !important; /* Zorgt dat de button geen rand heeft */
+    color: var(--secondary-text-color);
+  
+    &:hover {
+    text-decoration: underline;
+    color: var(--primary-action);
+    }
+
+    &:focus {
+       text-decoration: underline;
+       color: var(--primary-action);
+    }
+
    }    
 }
 
@@ -155,19 +167,12 @@ main {
       margin-right: 10px;
     }
 
-}
-
-
-.popup-item.delete span {
+    .delete span {
     color: red;
+    }
 }
 
-.clickable {
-    color: var(--primary-action);
-    cursor: pointer;
-}
 
-.clickable:hover {
-    text-decoration: underline;
-    color: var(--primary-action);
-}
+
+
+
