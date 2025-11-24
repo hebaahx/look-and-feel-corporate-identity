@@ -6,7 +6,7 @@ body {
 }
 
 /* Header */
-.topbar {
+.header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,16 +20,9 @@ body {
      font-size:var(--first-line) ;
     }
 
-    .add-button {
-     font-size: 2rem;
-     padding: 0.7rem;
-     border-radius: 50px;
-     color: var(--primary-color);
+    .add {
      position: absolute;
-     right: 1rem;
-     outline-color: black;
-     outline-style: dashed;
-    
+     right: 1rem
     }
 }
 
@@ -88,7 +81,7 @@ main {
     padding: 0;
     background: transparent;
     border: none !important; /* Zorgt dat de button geen rand heeft */
-    color: #525252;
+    color:#525252 ;
   
     &:hover {
     text-decoration: underline;
