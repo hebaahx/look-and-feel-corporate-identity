@@ -23,9 +23,8 @@ body {
     .add-button {
      font-size: 2rem;
      padding: 0.7rem;
-     border-radius: var(--border-radius-button);
+     border-radius: 50px;
      color: var(--primary-color);
-     cursor: pointer;
      position: absolute;
      right: 1rem;
      outline-color: black;
@@ -61,8 +60,6 @@ main {
     border-radius: var(--border-radius-photo);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
     
      @media (min-width: 700px) {
       padding: 2rem;
@@ -83,6 +80,15 @@ main {
   color: var(--secondary-text-color);
   margin: 0;
   }
+
+  .clickable {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0;
+    background: transparent;
+    border: none !important; /* Zorgt dat de button geen rand heeft */
+   }    
 }
 
 
@@ -165,4 +171,3 @@ main {
     text-decoration: underline;
     color: var(--primary-action);
 }
-
