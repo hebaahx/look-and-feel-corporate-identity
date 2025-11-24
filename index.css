@@ -54,16 +54,16 @@ main {
      grid-template-columns: 1fr;
     }
 
-    .group {
+  .group {
     background-color: var(--white);
     margin-bottom: 1rem;
     padding: 1rem;
     border-radius: var(--border-radius-photo);
     display: flex;
-    flex-direction: var(--border-radius-photo);
-    display: flex-start;
     flex-direction: column;
-
+    justify-content: flex-start;
+    align-items: flex-start;
+    
      @media (min-width: 700px) {
       padding: 2rem;
       flex-direction: column;
@@ -71,19 +71,20 @@ main {
       align-items: center;
      }
 
-        .group-name {
-         font-size: var(--second-line);
-         margin: 0;
-        }
-   }
+    .group-name {
+      font-size: var(--second-line);
+      margin: 0;
+     }
 
-}
+    }
 
  .group-sub {
-         font-size: var(--description);
-         color: var(--secondary-text-color);
-         margin: 0;
-        }
+  font-size: var(--description);
+  color: var(--secondary-text-color);
+  margin: 0;
+  }
+}
+
 
 
 /* Nav-bar */
@@ -143,9 +144,9 @@ main {
     }
 
      img {
-     width: 20px;
-     margin-right: 10px;
-  }
+      width: 20px;
+      margin-right: 10px;
+    }
 
 }
 
