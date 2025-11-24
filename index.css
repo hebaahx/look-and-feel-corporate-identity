@@ -77,7 +77,7 @@ main {
 
  .group-sub {
   font-size: var(--description);
-  color: var(--secondary-text-color);
+  color: #525252;
   margin: 0;
   }
 
@@ -88,7 +88,7 @@ main {
     padding: 0;
     background: transparent;
     border: none !important; /* Zorgt dat de button geen rand heeft */
-    color: var(--secondary-text-color);
+    color: #525252;
   
     &:hover {
     text-decoration: underline;
