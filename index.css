@@ -70,7 +70,7 @@ main {
 
  .group-sub {
   font-size: 1.2rem;
-  color: #525252;
+ color: var(--add-action);
   margin: 0;
   }
 
