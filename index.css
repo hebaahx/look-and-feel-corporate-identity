@@ -69,7 +69,7 @@ main {
     }
 
  .group-sub {
-  font-size: var(--description);
+  font-size: 1.2rem;
   color: #525252;
   margin: 0;
   }
