@@ -35,6 +35,7 @@ Bevat kleurenpalet, typografie, UI-componenten en spacing-regels.
 Iedereen kan deze in hun eigen project gebruiken voor een uniforme stijl.
 
 ## Bronnen
+https://developer.mozilla.org/en-US/
 
 ## Licentie
 
