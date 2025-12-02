@@ -82,7 +82,7 @@ main {
     background: transparent;
     border: none !important; /* Zorgt dat de button geen rand heeft */
     color:#525252 ;
-  
+    
     &:hover {
     text-decoration: underline;
     color: var(--primary-action);
